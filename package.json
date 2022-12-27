@@ -1,0 +1,17 @@
+{
+  "name": "aq26123",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cypress open --browser chrome",
+    "test:1": "cypress run --record --key 1ad88f53-6897-499e-8798-9a5f7ec3c998",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
